@@ -312,6 +312,54 @@ enum {
      */
     ACONFIGURATION_UI_MODE_NIGHT_YES = 0x2,
 
+    /**
+     * UI night mode: value that corresponds to NightQualifier "pink"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_YES_PINK = 0x3,
+
+    /**
+     * UI night mode: value that corresponds to NightQualifier "ambar"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_YES_AMBAR = 0x4,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "red"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_YES_RED = 0x5,
+
+    /**
+     * UI night mode: value that corresponds to NightQualifier "green"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_YES_GREEN = 0x6,
+
+    /**
+     * UI night mode: value that corresponds to NightQualifier "aqua"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_YES_AQUA = 0x7,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "white"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_YES_WHITE = 0x8,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "whitepink"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEPINK = 0x9,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "whiteambar"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEAMBAR = 0xa,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "whitered"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITERED = 0xb,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "whitegreen"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEGREEN = 0xc,
+    /**
+     * UI night mode: value that corresponds to NightQualifier "whiteaqua"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEAQUA = 0xd,
+
     /** Screen width DPI: not specified. */
     ACONFIGURATION_SCREEN_WIDTH_DP_ANY = 0x0000,
 
