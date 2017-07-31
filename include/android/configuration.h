@@ -318,47 +318,53 @@ enum {
     ACONFIGURATION_UI_MODE_NIGHT_YES_PINK = 0x3,
 
     /**
-     * UI night mode: value that corresponds to NightQualifier "ambar"
+     * UI night mode: value that corresponds to NightQualifier "amber"
      */
-    ACONFIGURATION_UI_MODE_NIGHT_YES_AMBAR = 0x4,
+    ACONFIGURATION_UI_MODE_NIGHT_YES_AMBER = 0x4,
     /**
      * UI night mode: value that corresponds to NightQualifier "red"
      */
     ACONFIGURATION_UI_MODE_NIGHT_YES_RED = 0x5,
 
     /**
-     * UI night mode: value that corresponds to NightQualifier "green"
+     * UI night mode: value that corresponds to NightQualifier "teal"
      */
-    ACONFIGURATION_UI_MODE_NIGHT_YES_GREEN = 0x6,
+    ACONFIGURATION_UI_MODE_NIGHT_YES_TEAL = 0x6,
 
     /**
      * UI night mode: value that corresponds to NightQualifier "aqua"
      */
     ACONFIGURATION_UI_MODE_NIGHT_YES_AQUA = 0x7,
     /**
-     * UI night mode: value that corresponds to NightQualifier "white"
-     */
-    ACONFIGURATION_UI_MODE_NIGHT_YES_WHITE = 0x8,
-    /**
      * UI night mode: value that corresponds to NightQualifier "whitepink"
      */
-    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEPINK = 0x9,
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEPINK = 0x8,
     /**
-     * UI night mode: value that corresponds to NightQualifier "whiteambar"
+     * UI night mode: value that corresponds to NightQualifier "whiteamber"
      */
-    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEAMBAR = 0xa,
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEAMBER = 0x9,
     /**
      * UI night mode: value that corresponds to NightQualifier "whitered"
      */
-    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITERED = 0xb,
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITERED = 0xa,
     /**
-     * UI night mode: value that corresponds to NightQualifier "whitegreen"
+     * UI night mode: value that corresponds to NightQualifier "whiteteal"
      */
-    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEGREEN = 0xc,
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITETEAL = 0xb,
     /**
      * UI night mode: value that corresponds to NightQualifier "whiteaqua"
      */
-    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEAQUA = 0xd,
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEAQUA = 0xc,
+
+    /**
+     * UI night mode: value that corresponds to NightQualifier "purple"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_YES_PURPLE = 0xd,
+
+    /**
+     * UI night mode: value that corresponds to NightQualifier "whitepurple"
+     */
+    ACONFIGURATION_UI_MODE_NIGHT_NO_WHITEPURPLE = 0xe,
 
     /** Screen width DPI: not specified. */
     ACONFIGURATION_SCREEN_WIDTH_DP_ANY = 0x0000,
